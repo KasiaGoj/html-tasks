@@ -1,0 +1,97 @@
+ul>li{paragraf}*4
+
+h$[title=item$]{Header $}*3
+<h1 title="item1">Header 1</h1>
+<h2 title="item2">Header 2</h2>
+<h3 title="item3">Header 3</h3>
+
+<div id="pierwszy">
+    <p>Akapit pierwszy</p>
+    <p>Akapit drugi</p>
+</div>
+
+
+<div id="lista">
+    <ol>
+        <li>produkt 1</li>
+        <li>produkt 2</li>
+        <li>produkt 3</li>
+        <li>produkt 4</li>
+        <li>produkt 5</li>
+    </ol>
+</div>
+
+<!-- https://docs.emmet.io/cheat-sheet/-->
+<!-- skrót do komentowania: alt+shift+a -->
+div#lista>ol>li{produkt $}*4
+<div id="lista">
+    <ol>
+        <li>produkt 1</li>
+        <li>produkt 2</li>
+        <li>produkt 3</li>
+        <li>produkt 4</li>
+    </ol>
+</div>
+
+<div id="pierwszy">
+    <p>Akapit pierwszy</p>
+    <p>Akapit drugi</p>
+</div>
+
+<nav>
+    <ul id="menu">
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+    </ul>
+</nav>
+
+nav>ul#menu>li{item}*4
+<nav>
+    <ul id="menu">
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+    </ul>
+</nav>
+
+<div id="tekst">
+    <h1>Tytuł</h1>
+    <p class="paragraf">akapit 1</p>
+</div>
+
+div#tekst>h1{Tytuł}+p#paragraf{akapit 1}
+<div id="tekst">
+    <h1>Tytuł</h1>
+    <p id="paragraf">akapit 1</p>
+</div>
+
+<article>
+    <h1>Tytuł artykułu</h1>
+    <p id="akapit1">tekst</p>
+    <h2>Podtytuł</h2>
+    <p id="akapit2">tekst<a href="">Link</a></p>
+</article>
+
+article>h1{Tytuł artykułu}+p#akapit1{tekst}+h2{Podtytuł}+p#akapit2{tekst}>a{link}
+<article>
+    <h1>Tytuł artykułu</h1>
+    <p id="akapit1">tekst</p>
+    <h2>Podtytuł</h2>
+    <p id="akapit2">tekst<a href="">link</a></p>
+</article>
+
+<p id="paragraf">akapit 1</p>
+
+<div id="tekst">
+    <h1>Tytuł</h1>
+    <p class="paragraf">akapit 1</p>
+</div>
+
+<!-- div#tekst>h1{Tytuł}+p#paragraf{akapit 1} -->
+<div id="tekst">
+    <h1>Tytuł</h1>
+    <p class="paragraf">akapit 1</p>
+</div>
