@@ -1,0 +1,140 @@
+<!-- Za pomocą HTML stwórz strukturę strony, która będzie odpowiadała makiecie zamieszczone w załączniku.
+
+1. Dobierz najlepsze semantycznie znaczniki
+2. Pamiętaj o poziomach nagłówków
+3. Do znaczników możesz wstawić przykładowe teksty Lorem -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            border-style: solid;
+            border-color: midnightblue;
+            border-width: 1px;
+            letter-spacing: 1px;
+        }
+
+        ul {
+            list-style-type: none;
+            width: 500px;
+            height: 40px;  
+            box-sizing: border-box;
+        }
+        
+        li {
+            display: inline;     
+            border-color: #1e3768;
+            background-color: white;         
+            margin-right: 1em;
+            border: 1px solid #1e3768;
+        }
+
+        a:link {
+          color: black;
+          background-color: transparent;
+    
+        }
+
+        #first {
+            background-color:#1e3768;
+            color: white;
+            text-decoration: none;
+        }
+
+        #next   {
+          color: #1e3768;
+          background-color: transparent;
+          text-decoration: none; 
+        }
+
+        section {
+            background-color: #7cc576;
+            padding: 1em;
+            margin-top: 1em;
+    
+        }
+
+        #home   {
+            background-color: #ffb16b;
+        }
+
+        h1, h2, h3 {
+            font-weight: lighter;
+        }
+
+        h2, h3 {
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 1.17em;
+        }
+
+        h3 {
+            font-size: 0.83em;
+        }
+
+        p  {
+            font-size: 0.67em;
+        }
+
+        .small {
+            margin-left: 3em;
+        }
+
+        .link   {
+          color: black;
+        }
+
+        footer {
+            text-align: center;
+            font-size: 0.8em;
+            background-color: #cccccc;
+            padding: 1em;
+            margin-top: 1em;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <nav>   
+        <ul>
+          <li><a id="first" href="#home">Home</a></li>
+          <li><a id="next" href="#about">O mnie</a></li>
+          <li><a id="next" href="#contact">Kontakt</a></li>
+        </ul>
+    </nav>
+        
+<section id="home">
+    <header>
+        <h1>Główny tytuł strony</h1>
+    </header>
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur deleniti sint dolorem, aliquid iusto perferendis cum quibusdam sit fugiat nostrum placeat quaerat quam illo! Temporibus quaerat vel odio ipsum eveniet.</p>
+</section>    
+
+<section id="about">
+    <h2>O mnie</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident a natus ducimus iste temporibus dolores commodi aspernatur modi. Debitis, optio inventore! Id, ab. Deleniti et impedit voluptas officia, perferendis maiores!</p>
+</section>
+
+<section>
+    <h2>Kontakt</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident a natus ducimus iste temporibus dolores commodi aspernatur modi. Debitis, optio inventore! Id, ab. Deleniti et impedit voluptas officia, perferendis maiores!</p>
+
+    <h3>Tu mnie znajdziesz</h3>
+    <p class="small">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident a natus ducimus iste temporibus dolores commodi aspernatur modi. Debitis, optio inventore! Id, ab. Deleniti et impedit voluptas</p>
+    <p class="small">officia, perferendis maiores! <a class="link" href="#">Link</a></p>
+</section>
+
+<footer> copyrights by A. Kowalski</footer>
+</body>
+</html>
